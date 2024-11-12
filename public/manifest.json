@@ -1,5 +1,5 @@
 {
-  "url": "http://localhost:5173",
-  "name": "TON&Co. Tutorial",
-  "iconUrl": "https://raw.githubusercontent.com/markokhman/func-course-chapter-5-code/master/public/tonco.png"
+  "url": "https://github.com/road12runner/first_contract_front_end",
+  "name": "TON&Co. First Contract",
+  "iconUrl": "https://github.com/road12runner/first_contract_front_end/vite.svg"
 }
