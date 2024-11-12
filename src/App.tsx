@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import {TonConnectButton} from '@tonconnect/ui-react';
 import './App.css'
 import {useMainContract} from "./hooks/useMainContract.ts";
@@ -8,7 +8,7 @@ import {fromNano} from "@ton/core";
 //EQCGIK5ZxjV4687u06yjidSbsZWZWXSXQHLKAQ4__Y6SycHo
 function App() {
   const {contact_address,  contract_balance, counter_value,
-    recent_address, owner_address, sendIncrement, sendDeposit, sendWithdrawRequest} = useMainContract();
+    sendIncrement, sendDeposit, sendWithdrawRequest} = useMainContract();
   const {connected} = useTonconnect();
   return (
     <>
